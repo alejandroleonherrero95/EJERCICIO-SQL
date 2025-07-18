@@ -1,3 +1,10 @@
 -- 1. Crea el esquema de la BBDD.
 -- EL PRIMER EJERCICIO ERA SIMPLEMENTE CREAR EL ESQUEMA DE LA BASE DE DATOS QUE SOLO HABÍA QUE EJECUTAR EL SCRIPT QUE ME DABAIS USTEDES
 -- 2. Muestra los nombres de todas las películas con una clasificación por edades de ‘R’.
+SELECT title
+FROM film
+WHERE rating = 'R';
+-- 3.Encuentra los nombres de los actores que tengan un “actor_id” entre 30 y 40.
+SELECT first_name, last_name
+FROM actor
+WHERE actor_id BETWEEN 30 AND 40;
