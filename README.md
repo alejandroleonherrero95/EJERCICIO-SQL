@@ -1,1 +1,2 @@
-# EJERCICIO-SQL
+El objetivo de estos ejercicios ha sido poner en práctica conceptos fundamentales de bases de datos relacionales y reforzar el uso del lenguaje SQL. A lo largo del proyecto he utilizado funciones básicas y avanzadas como SELECT, WHERE, JOIN, GROUP BY, HAVING, subconsultas, funciones de agregación como COUNT, AVG, SUM, y también creación de vistas y tablas temporales.
+Tuve que revisar bien los datos de la base de datos para entender cómo estaban relacionadas las tablas y poder escribir consultas correctas. También aprendí a usar funciones de fecha y a interpretar los errores que me devolvía DBeaver cuando algo no funcionaba.
