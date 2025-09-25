@@ -195,7 +195,6 @@ LEFT JOIN rental r ON c.customer_id = r.customer_id;
 SELECT f.title, c.name AS categoria
 FROM film f
 CROSS JOIN category c;
--- 44. Contestación: La consulta muestra todas las combinaciones posibles entre películas y categorías, entiendo que no tiene valor práctico a menos que se quiera analizar posibles combinaciones hipotéticas.
 -- 45. Encuentra los actores que han participado en películas de la categoría 'Action'.
 SELECT DISTINCT a.first_name, a.last_name
 FROM actor a
